@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/dynamic-landing-page-demo-one/static/css/main.c84590bc.chunk.css",
+    "main.js": "/dynamic-landing-page-demo-one/static/js/main.566818f1.chunk.js",
+    "main.js.map": "/dynamic-landing-page-demo-one/static/js/main.566818f1.chunk.js.map",
+    "runtime-main.js": "/dynamic-landing-page-demo-one/static/js/runtime-main.0a60477c.js",
+    "runtime-main.js.map": "/dynamic-landing-page-demo-one/static/js/runtime-main.0a60477c.js.map",
+    "static/js/2.0f14d786.chunk.js": "/dynamic-landing-page-demo-one/static/js/2.0f14d786.chunk.js",
+    "static/js/2.0f14d786.chunk.js.map": "/dynamic-landing-page-demo-one/static/js/2.0f14d786.chunk.js.map",
+    "static/js/3.7823d482.chunk.js": "/dynamic-landing-page-demo-one/static/js/3.7823d482.chunk.js",
+    "static/js/3.7823d482.chunk.js.map": "/dynamic-landing-page-demo-one/static/js/3.7823d482.chunk.js.map",
+    "index.html": "/dynamic-landing-page-demo-one/index.html",
+    "static/css/main.c84590bc.chunk.css.map": "/dynamic-landing-page-demo-one/static/css/main.c84590bc.chunk.css.map",
+    "static/js/2.0f14d786.chunk.js.LICENSE.txt": "/dynamic-landing-page-demo-one/static/js/2.0f14d786.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a60477c.js",
+    "static/js/2.0f14d786.chunk.js",
+    "static/css/main.c84590bc.chunk.css",
+    "static/js/main.566818f1.chunk.js"
+  ]
+}
