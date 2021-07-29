@@ -17,6 +17,7 @@ $background-color: linear-gradient(
   .row {
     display: flex;
     margin: 1rem;
+
     flex-wrap: wrap;
     // align-content: stretch;
   }
@@ -28,6 +29,7 @@ $background-color: linear-gradient(
     display: flex;
     flex-direction: column;
     flex: 1;
+    margin: 0 0px;
     flex-basis: 50%;
 
     .home__hero-text-wrapper {
@@ -56,7 +58,7 @@ $background-color: linear-gradient(
       max-width: 28rem;
       .home__hero-img {
         margin: 0 0 0 1rem;
-        max-width: 98%;
+        max-width: 92%;
       }
       img {
         max-width: 100%;

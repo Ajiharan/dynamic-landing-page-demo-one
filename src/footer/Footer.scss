@@ -1,0 +1,80 @@
+.footer-container {
+  background-color: #242424;
+  padding: 3rem 0.2rem 3rem 0.2rem;
+  .footer-subscription {
+    display: flex;
+    padding: 1.5rem;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    .footer-subscription-heading {
+      font-size: 1.8rem;
+      margin: 0.5rem 0rem;
+    }
+    .footer-subscription-text {
+      font-size: 1.2rem;
+      margin: 0.5rem 0rem;
+    }
+    .input-areas {
+      margin-top: 0.8rem;
+      form {
+        display: flex;
+        @media screen and (max-width: 970px) {
+          display: flex;
+          flex-direction: column;
+        }
+        .footer-input {
+          width: 250px;
+          margin-right: 1rem;
+          outline: none;
+          border: none;
+          @media screen and (max-width: 970px) {
+            margin: 10px 0px;
+            padding: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+.footer-links {
+  padding: 2rem 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  @media screen and (max-width: 970px) {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-link-wrapper {
+    display: flex;
+    padding-top: 2rem;
+    align-items: center;
+    background-color: rgb(39, 67, 223);
+    opacity: 0.6;
+    height: 25rem;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .footer-link-items {
+      height: 12rem;
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      h2 {
+        color: white;
+        margin-bottom: 1rem;
+      }
+      a {
+        text-decoration: none;
+        margin-bottom: 0.2rem;
+        color: white;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
