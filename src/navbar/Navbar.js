@@ -21,16 +21,19 @@ const Navbar = () => {
     }
   }, []);
 
+  const scrollListener = () => {
+    if (window.scrollY > 100) {
+      setScroll(true);
+      // setClick(false);
+    } else {
+      setScroll(false);
+    }
+  };
+
   useEffect(() => {
-    window.addEventListener("scroll", () => {
-      if (window.scrollY > 100) {
-        setScroll(true);
-      } else {
-        setScroll(false);
-      }
-    });
+    window.addEventListener("scroll", scrollListener);
     return () => {
-      window.removeEventListener("scroll");
+      window.removeEventListener("scroll", scrollListener);
     };
   }, []);
 
@@ -54,7 +57,11 @@ const Navbar = () => {
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />
         </div>
-        <ul className={click ? "nav-menu active" : "nav-menu"}>
+        <ul
+          className={`${click ? "nav-menu active" : "nav-menu"} ${
+            isScroll ? " nav-scroll-color" : " nav-not-scroll"
+          }`}
+        >
           <li className="nav-item">
             <Link to="/" className="nav-links" onClick={closeMobileBtn}>
               Home
